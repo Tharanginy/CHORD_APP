@@ -4,25 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>CHORD</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+        <title>CHORD APP</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" defer></script>
     </head>
+    
     <body>
         <nav>
-            <a href style="color: #white;">CHORD</a>
+            <a href style="color: floralwhite" >CHORD</a> <!--bootstrap font-->
             <a href="#">Albums</a>
             <a href="#">Artists</a>
-            <a href="#">Playlist</a>
-            <a href="#">username</a>
-            <a href="#"><img src="profile.jpg" alt="Profile Pic"></a>
+            <a href="#">Playlist</a>B
+            <a href="#">-username-</a>
+            <a href="#"><img src="profile.jpg" width="40px" height="40px" style="border-radius:100%" alt="Profile Picture"></a>
         </nav>
 
         <main>
-            <section id "search">
+            <section id ="search-bar">
                 <input type="text" placeholder="Search for songs, albums, artists...">
                 <button type="submit">Search</button>
             </section>
 
-            <section id "drop down">
+            <section id ="drop-down-menu">
                 <select>
                     <option value="Recent">Recent</option>
                     <option value="Oldest">Oldest</option>
@@ -38,7 +41,7 @@
 
             <section id="currently playing">
                 <p>Currently Playing: Song Title</p>
-                <button>Favourite</button>
+                <button>Favourite</button> <!--bootstrap buttons-->
                 <button>Previous</button>
                 <button>Play/Pause</button>
                 <button>Next</button>
@@ -48,6 +51,7 @@
     </body>
 
     <footer>
+        <hr>
         <p>CHORD</p>
     </footer>
 </html>
